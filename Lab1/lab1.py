@@ -34,12 +34,38 @@ turtle.reset()
 #help(turtle.begin_fill())
 #turtle.circle(50)
 #turtle.penup()
-turtle.goto(-100,0)
-turtle.circle(50)
-turtle.goto(-100,-50)
-turtle.circle(50)
-turtle.goto(-50,0)
-turtle.circle(50)
+
+turtle.pensize(7)
+turtle.color("blue")
+turtle.penup()
+turtle.goto(-200, -25)
+turtle.pendown()
+turtle.circle(90)
+
+turtle.color("black")
+turtle.penup()
+turtle.goto(0, -25)
+turtle.pendown()
+turtle.circle(90)
+
+turtle.color("red")
+turtle.penup()
+turtle.goto(200, -25)
+turtle.pendown()
+turtle.circle(90)
+
+turtle.color("yellow")
+turtle.penup()
+turtle.goto(-100, -110)
+turtle.pendown()
+turtle.circle(90)
+
+turtle.color("green")
+turtle.penup()
+turtle.goto(100, -110)
+turtle.pendown()
+turtle.circle(90)
+
 
 
 
